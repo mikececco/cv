@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="design.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="header">Hello! I'm Mike Cecconello</h1>
+        <img src="images/mike_profile_pic.jpg" alt="Mike's face" id="profile_pic" width="200px">
+        <p>I'm currently 22 years old, recently laid-off and now pursuing sotware development to upskill and <strong>change</strong> my life for the better.</p>
+<hr><!--horizontal rule-->
+<h3><a href="https://www.canva.com/design/DAEm1AIL3Z8/DRk45xEElIo5hUENwL3e8w/view?utm_content=DAEm1AIL3Z8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Experiences</a></h3>
+<hr> <!--horizontal rule-->
+<h3>Education</h3>
+<!--table to have elements ordered clearly-we can attributes to it but they are DEPRECATED, for style use CSS-->
+<table border="1"><!--border attribute is deprecated, no longer in use, here just example-->
+    <!--table head - BOLD by defaul(strong)-->100500
+    <thead>
+        <tr>
+            <!--table header element-->
+            <th>Dates</th> <!--name of header of first column-->
+            <th>Type</th> <!--name of header of first column-->
+        </tr>
+
+    </thead>
+    <!--table body-->
+    <tbody>
+        <tr>
+        <!--table data-->
+            <td>2023</td>
+            <td>Full Stack Software Development at Le Wagon</td>
+        </tr>
+        <tr>
+            <!--table data-->
+            <td>2019-2022</td>
+            <td>Digital Management at <a href="https://www.h-farm.com/it/education/college" id="college">H-Farm College</a> & Ca' Foscari University of Venice</td>
+        </tr>
+    </tbody>
+    <!--NOT COMMON-table footer-->
+    <tfoot>
+        <tr>
+            <!--table data-->
+                <td><strong>First footer column</strong></td>
+                <td>Second footer column</td>
+            </tr>
+    </tfoot>
+</table>
+<table> <!--simple table with no distinction between header-body-footer-->
+    <tr>
+    <!--table data-->
+        <td>First row</td> 
+        <td>Content 1</td> <!--content is being placed horizontally to previous data-->
+    </tr>
+    <tr>
+        <!--table data-->
+            <td>Second row</td>
+            <td>Content 1</td>
+    </tr>
+</table>
+<hr><!--horizontal rule-->
+<h3><a href="portfolio.html">Portfolio</a></h3>
+<table>
+    <!--table row-->
+    <tr>
+        <!--table data-->
+        <td>2019-2022</td>
+        <td>Full Stack Software Development at Le Wagon</td>
+    </tr>
+</table>
+<table cellspacing="50">
+    <td>
+        <img src="images/mike_profile_pic.jpg" alt="Mike's face" id="profile_pic" width="200px">
+    </td>
+    <td>
+        <h1 class="header">Hello! I'm Mike Cecconello</h1>
+        <p>I'm currently 22 years old, recently laid-off and now pursuing sotware development to upskill and <strong>change</strong> my life for the better.</p>
+    </td>
+</table>
+<hr><!--horizontal rule-->
+<h3>Skills</h3>
+<table cellspacing="10">
+    <tr> <!--table row-->
+        <td> <!--first sub table in the first row-->
+            <table border="1" cellspacing="10">
+                <tr>
+                    <td>HTML</td>
+                    <td>🖖🖖🖖🖖🖖</td>
+                </tr>
+                    <td>CSS</td>
+                    <td>🖖🖖🖖🖖</td>
+                </tr>      
+            </table>
+        </td>
+        <td><!--second sub table ALSO in the first row-->
+            <table border="1" cellspacing="10">
+                <tr>
+                    <td>RUBY</td>
+                    <td>🖖🖖🖖🖖🖖</td>
+                <tr>
+                    <td>JS</td>
+                    <td>🖖🖖🖖🖖</td>
+                </tr>      
+            </table>
+        </td>
+    </tr> 
+</table>
+<form action="" method="get">
+    <label>Your name</label>
+    <input type="text" name="values" placeholder="Your name">
+    <input type="date"><br>
+    <label>Do you want to sign up to the newsletter?</label>
+    <input type="checkbox" name="" id=""><br>
+    <label for="">Password</label>
+    <input type="password" name="" id="">
+    <input type="submit">
+    <button type="submit">Submit</button>
+    <input type="file" name="" id="">
+    <input type="range" name="" id="">
+    <label for="">Your email</label>
+    <input type="email" name="" id=""><br> <!--line break-->
+    <label for="">Your message</label><br>  
+    <textarea name="message" id="" cols="30" rows="10"></textarea>
+</form> 
+</body>
+</html>

@@ -1,0 +1,9 @@
+#profile_pic{
+    border-radius: 50%;
+}
+
+#college{text-decoration: none;
+    color: aqua;
+    
+}
+#college:hover{color: blue;}
